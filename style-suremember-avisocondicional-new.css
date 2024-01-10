@@ -1,0 +1,206 @@
+/* 00 Suremembers Aviso Condicional ON */
+/* style-suremember-avisocondicional-new.css */
+/* Inicio CSS Suremembers Aviso Condicional shortcode mio [suremember-aviso-condicional] */
+
+.jl-alerta-main-membresia-noactiva-aviso-condicional {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+
+.jl-alerta-membresia-noactiva-aviso-condicional {
+  max-width: 800px;
+  padding: 2rem;
+  margin: 3rem auto;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 200ms ease,background-color 200ms ease,box-shadow 200ms ease;
+  -moz-transition: -moz-transform 200ms ease,background-color 200ms ease,box-shadow 200ms ease;
+  transition: transform 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+  height: 100%;
+  background-color: var(--base-2);
+  color: var(--jl-texto);
+  text-decoration: none;
+  box-shadow: 8px 8px 0 0 var(--azul-claro);
+  overflow: visible;
+  border-width: 1px;
+  border-radius: 1.875rem;
+  border-style: solid;
+  border-color: var(--azul-claro);
+}
+
+
+
+.suremember-aviso-condicional-main {
+max-width: 700px;
+width: 90%;
+border-radius: 1.875rem;
+border-color: var(--azul-claro);
+border-width: 2px;
+border-style: solid;
+padding: 1rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+margin-left: auto;
+margin-right: auto;
+min-height: 0vw;
+background: -webkit-linear-gradient(135deg,transparent 25%,rgba(5,70,95,5% ) 25%,rgba(5,70,95,5% ) 50%,transparent 50%,transparent 75%,rgba(5,70,95,5% ) 75%,rgba(5,70,95,5% ));
+background: linear-gradient(135deg,transparent 25%,rgba(5,70,95,5% ) 25%,rgba(5,70,95,5% ) 50%,transparent 50%,transparent 75%,rgba(5,70,95,5% ) 75%,rgba(5,70,95,5% ));
+background-size: 4px 4px;
+}
+
+.suremember-aviso-condicional-texto {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.suremember-aviso-condicional-texto-header-h1 {
+text-transform: uppercase;
+font-weight: 700;
+color: var(--azul-claro);
+font-size: clamp(1.5rem, 1.125rem + 1.5vw, 2.25rem);
+}
+
+.suremember-aviso-condicional-texto-header-h2 {
+text-transform: uppercase;
+font-weight: 700;
+color: var(--jl-rojo);
+font-size: clamp(1.5rem, 1.125rem + 1.5vw, 2.25rem);
+}
+
+.suremember-aviso-condicional-texto-parrafo-h3 {
+font-size: clamp(1.125rem, 0.9375rem + 0.75vw, 1.5rem);
+font-weight: 500;
+color: var(--jl-texto);
+}
+
+.aviso-condicional-mi-lista {
+text-align: left;
+}
+
+
+.suremember-aviso-condicional-texto-header {
+text-transform: uppercase;
+font-weight: 500;
+color: var(--azul-claro);
+font-size: clamp(18px, calc(1.125rem + ((1vw - 3.6px) * 0.5556)), 24px);}
+
+.suremember-aviso-condicional-texto-parrafo {
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3.6px) * 0.3704)), 19px);
+}
+
+.suremember-aviso-condicional-botones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-suremember-aviso-condicional-button {
+  flex: 1;
+  margin: 0 15px;
+}
+.div-suremember-aviso-condicional-button-ayuda {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.div-suremember-aviso-condicional-button-error001 {
+margin: 2rem;
+}
+
+.a-button-aviso-condicional {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3.6px) * 0.3704)), 19px);
+  padding: 10px;
+  border: 1px solid var(--azul-claro); /* #1177cc */
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+/* Boton de ayuda */
+.a-button-aviso-condicional-ayuda {
+  background-color: var(--amarillo); /* #ffea00 */
+}
+
+.a-button-aviso-condicional-ayuda:hover {
+  background-color: var(--azul-oscuro); /* #3a00ff */
+}
+
+.a-button-aviso-condicional-ayuda {
+color: var(--azul-claro); /* #1177cc */
+}
+
+.a-button-aviso-condicional.a-button-aviso-condicional-ayuda:hover {
+color: var(--amarillo); /* #ffea00 */
+text-decoration: none;
+}
+
+/* Boton de soporte */
+.a-button-aviso-condicional-soporte {
+  background-color: var(--amarillo); /* #ffea00 */
+}
+
+.a-button-aviso-condicional-soporte:hover {
+  background-color: var(--azul-oscuro); /* #3a00ff */
+}
+
+.a-button-aviso-condicional-soporte {
+color: var(--azul-claro); /* #1177cc */
+}
+
+.a-button-aviso-condicional.a-button-aviso-condicional-soporte:hover {
+color: var(--amarillo); /* #ffea00 */
+text-decoration: none;
+}
+
+
+
+/* Boton de acceder */
+.a-button-aviso-condicional-acceder {
+  background-color: var(--blanco); /* #ffffff */
+}
+
+.a-button-aviso-condicional-acceder:hover {
+  background-color: var(--azul-oscuro); /* #3a00ff */
+}
+
+.a-button-aviso-condicional-acceder {
+color: var(--azul-claro); /* #1177cc */
+}
+
+.a-button-aviso-condicional.a-button-aviso-condicional-acceder:hover {
+color: var(--amarillo); /* #ffea00 */
+text-decoration: none;
+}
+
+/* Boton de Suscribirse */
+.a-button-aviso-condicional-sustibirse {
+  background-color: var(--azul-claro); /* #1177cc */
+}
+
+.a-button-aviso-condicional-sustibirse:hover {
+  background-color: var(--azul-oscuro); /* #3a00ff */
+}
+
+.a-button-aviso-condicional.a-button-aviso-condicional-sustibirse {
+color: var(--blanco); /* #ffffff */
+}
+
+.a-button-aviso-condicional.a-button-aviso-condicional-sustibirse:hover {
+color: var(--amarillo); /* #ffea00 */
+text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .suremember-aviso-condicional-botones {
+    flex-direction: column; /* Cambia a dirección de columna en pantallas pequeñas */
+  }
+  
+  .div-suremember-aviso-condicional-button {
+    flex: auto; /* Ocupa todo el ancho en dirección de columna */
+    margin: 5px 0; /* Espacio entre los botones en dirección de columna */
+  }
+}
+
+/* FIN SUREMEMBER  AVISO shortcode mio resticcion [suremember-aviso] style-suremember-aviso-new.css */
